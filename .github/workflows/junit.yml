@@ -15,6 +15,9 @@ jobs:
         with:
           java-version: '17'
           distribution: 'corretto'
+          server-id: github
+          server-username: ${{ github.actor }}
+          server-password: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Run JUnit tests with Maven
         run: mvn test
