@@ -20,7 +20,7 @@ jobs:
           distribution: 'corretto'
           server-id: github
           server-username: ${{ github.actor }}
-          server-password: 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
+          server-password: ${{ secrets.PAT_FOR_PACKAGES }}
 
       - name: Run JUnit tests with Maven
         run: mvn test
