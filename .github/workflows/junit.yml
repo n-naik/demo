@@ -23,4 +23,4 @@ jobs:
           server-password: ${{ secrets.PAT_FOR_PACKAGES }}
 
       - name: Run JUnit tests with Maven
-        run: mvn test
+        run: mvn install
