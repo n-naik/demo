@@ -16,7 +16,7 @@
     <repositories>
         <repository>
             <id>github</id>
-            <url>https://maven.pkg.github.com/n-naik/Simple-Maven-Project</url>
+            <url>https://maven.pkg.github.com/n-naik/*</url>
         </repository>
     </repositories>
     <dependencies>
