@@ -24,3 +24,5 @@ jobs:
 
       - name: Run JUnit tests with Maven
         run: mvn install
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}     
